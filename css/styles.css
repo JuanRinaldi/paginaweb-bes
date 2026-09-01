@@ -10846,3 +10846,100 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+/* =========================================
+   PALETA PERSONALIZADA - BES
+   ========================================= */
+
+:root {
+  --bs-primary: #2e7d32;
+  --bs-primary-rgb: 46, 125, 50;
+
+  --bs-success: #388e3c;
+  --bs-success-rgb: 56, 142, 60;
+
+  --bs-dark: #1b5e20;
+  --bs-dark-rgb: 27, 94, 32;
+
+  --bs-link-color: #2e7d32;
+  --bs-link-hover-color: #1b5e20;
+}
+
+
+/* Navbar, header y footer */
+.bg-dark {
+  background-color: #1b5e20 !important;
+}
+
+
+/* Color principal de Bootstrap */
+.bg-primary {
+  background-color: #2e7d32 !important;
+}
+
+
+/* Badges */
+.badge.bg-primary {
+  background-color: #388e3c !important;
+}
+
+
+/* Links */
+a {
+  color: #2e7d32;
+}
+
+a:hover {
+  color: #1b5e20;
+}
+
+
+/* Sección Nosotros */
+.bg-light {
+  background-color: #e8f5e9 !important;
+}
+
+
+/* Títulos */
+h1,
+h2,
+h3 {
+  color: #1b5e20;
+}
+
+
+/* Mantener blanco el título del header */
+header h1 {
+  color: white;
+}
+
+
+/* Tarjetas */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Efecto hover tarjetas */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(27, 94, 32, 0.15) !important;
+}
+
+
+/* Footer links */
+footer a {
+  color: #a5d6a7;
+}
+
+footer a:hover {
+  color: white;
+}
+
+
+/* Fondo general */
+body {
+  background-color: #f7fbf7;
+}
