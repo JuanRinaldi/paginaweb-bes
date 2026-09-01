@@ -10943,3 +10943,66 @@ footer a:hover {
 body {
   background-color: #f7fbf7;
 }
+
+
+/* Espaciado de las secciones principales */
+#nosotros,
+#cursos,
+#examenes {
+  padding-top: 3rem !important;
+}
+
+/* Evita que se acumule el margen superior del container */
+#nosotros .container,
+#cursos .container,
+#examenes .container {
+  margin-top: 0 !important;
+}
+
+/* Separación entre títulos y contenido */
+#nosotros h2 {
+  margin-bottom: 1.5rem;
+}
+
+#cursos h2,
+#examenes h2 {
+  margin-bottom: 2.5rem;
+}
+
+/* Fondos de las secciones */
+#nosotros,
+#examenes {
+  background-color: #e8f5e9;
+  width: 100%;
+  margin: 0;
+}
+
+/* Evitar un segundo fondo y espacios innecesarios */
+#nosotros .bg-light {
+  background-color: transparent !important;
+  margin: 0;
+}
+
+/* Espaciado superior */
+#nosotros,
+#cursos,
+#examenes {
+  padding-top: 3rem !important;
+}
+
+/* Eliminar márgenes acumulados */
+#nosotros .container,
+#cursos .container,
+#examenes .container {
+  margin-top: 0 !important;
+}
+
+/* Separación de los títulos */
+#nosotros h2 {
+  margin-bottom: 1.5rem;
+}
+
+#cursos h2,
+#examenes h2 {
+  margin-bottom: 2.5rem;
+}
