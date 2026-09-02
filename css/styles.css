@@ -11031,3 +11031,9 @@ body {
     overflow-wrap: anywhere;
   }
 }
+
+.imagen-portada {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+}
