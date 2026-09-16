@@ -11037,3 +11037,244 @@ body {
     max-width: 270px;
     height: auto;
 }
+
+/* =========================================
+   SECCIÓN EMPRESAS
+   ========================================= */
+
+/* Portada */
+.empresas-hero {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(27, 94, 32, 0.98),
+      rgba(46, 125, 50, 0.92)
+    );
+  padding: 3rem 0;
+}
+
+.empresas-hero h1 {
+  color: white;
+}
+
+.empresas-etiqueta,
+.empresas-subtitulo {
+  display: inline-block;
+  color: #1b5e20;
+  background-color: #c8e6c9;
+  padding: 0.4rem 1rem;
+  border-radius: 50rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+}
+
+.empresas-hero-icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 190px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+}
+
+.empresas-hero-icono i {
+  font-size: 5rem;
+}
+
+
+/* Espaciado general */
+.empresas-seccion,
+.empresas-contenidos,
+.empresas-proceso {
+  padding: 5rem 0;
+}
+
+.empresas-titulo {
+  max-width: 720px;
+  margin: 0 auto 3rem;
+}
+
+.empresas-titulo h2 {
+  margin-bottom: 1rem;
+}
+
+
+/* Tarjetas de beneficios */
+.empresa-card {
+  height: 100%;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #dfeee0;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(27, 94, 32, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.empresa-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(27, 94, 32, 0.16);
+}
+
+.empresa-card-icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 1.25rem;
+  color: white;
+  background-color: #2e7d32;
+  border-radius: 50%;
+}
+
+.empresa-card-icono i {
+  font-size: 1.8rem;
+}
+
+.empresa-card p {
+  margin-bottom: 0;
+  color: #6c757d;
+}
+
+
+/* Contenidos */
+.empresas-contenidos {
+  background-color: #e8f5e9;
+}
+
+.empresas-lista {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(27, 94, 32, 0.1);
+}
+
+.empresa-lista-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #e8f5e9;
+}
+
+.empresa-lista-item:last-child {
+  border-bottom: none;
+}
+
+.empresa-lista-item i {
+  flex-shrink: 0;
+  color: #2e7d32;
+  font-size: 1.2rem;
+}
+
+
+/* Proceso */
+.empresas-proceso {
+  background-color: #f7fbf7;
+}
+
+.empresa-paso {
+  height: 100%;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.empresa-paso-numero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto 1.2rem;
+  color: white;
+  background-color: #2e7d32;
+  border-radius: 50%;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.empresa-paso p {
+  margin-bottom: 0;
+  color: #6c757d;
+}
+
+
+/* Llamada a la acción */
+.empresas-cta {
+  padding: 5rem 0;
+  background-color: #1b5e20;
+}
+
+.empresas-cta h2 {
+  color: white;
+}
+
+.empresas-cta-icono {
+  color: #a5d6a7;
+  font-size: 3rem;
+}
+
+
+/* Botones */
+.empresas-hero .btn-light,
+.empresas-cta .btn-light {
+  color: #1b5e20;
+  font-weight: 600;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.empresas-hero .btn-light:hover,
+.empresas-cta .btn-light:hover {
+  color: #1b5e20;
+  background-color: #e8f5e9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Adaptación para celulares */
+@media (max-width: 767.98px) {
+  .empresas-hero {
+    padding: 2rem 0;
+  }
+
+  .empresas-hero .container,
+  .empresas-seccion .container,
+  .empresas-contenidos .container,
+  .empresas-proceso .container,
+  .empresas-cta .container {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
+  .empresas-seccion,
+  .empresas-contenidos,
+  .empresas-proceso,
+  .empresas-cta {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .empresas-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .empresas-lista {
+    padding: 1.4rem;
+  }
+}
+
+/* Quitar subrayado de los enlaces de contacto */
+.contact-link {
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+}
